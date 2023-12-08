@@ -4,12 +4,10 @@
   "private": true,
   "homepage": "https://goitacademy.github.io/react-homework-template/",
   "dependencies": {
-    
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    
-  },
+    "react-scripts": "5.0.1"
+    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
