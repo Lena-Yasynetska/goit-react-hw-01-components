@@ -1,6 +1,5 @@
 import { Friend, OnlineStatus } from "./FriendListItem.styled"
 
-
 export const FriendListItem = ({ isOnline, url, name}) => {
     return (
         <Friend>
