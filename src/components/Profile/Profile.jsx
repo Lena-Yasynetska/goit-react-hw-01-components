@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatsList } from "components/ProfileStatsList/StatsList";
+//import { StatsList } from "components/ProfileStatsList/StatsList";
 import {ProfileWrapper, PersonWrapper, PhotoWrapper, PersonName, PersonData} from "./Profile.styled";
 
 export const Profile = (({user: {username, tag, location, avatar, stats}}) => {
@@ -19,7 +19,7 @@ export const Profile = (({user: {username, tag, location, avatar, stats}}) => {
     <PersonData>{location}</PersonData>
   </PersonWrapper>
 
-<StatsList stats={stats}/>
+{/* <StatsList stats={stats}/> */}
 </ProfileWrapper>
     )
 });
