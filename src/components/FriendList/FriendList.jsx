@@ -1,4 +1,4 @@
-import { FriendListItem } from "components/FriendListItem/FriendListItem";
+import { FriendListItem } from "components/FriendListltem/FriendListltem";
 import { FriendsWrapper } from "./FriendList.styled";
 
 
